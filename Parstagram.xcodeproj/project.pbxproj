@@ -10,6 +10,7 @@
 		4A35331D639798129DC7CC62 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23847EEFE9093DE842777787 /* Pods_ParstagramTests.framework */; };
 		5BC157B02E08B108E37E5E09 /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8182F791EC14E315ED87FD /* Pods_ParstagramUITests.framework */; };
 		CD7E262AFEEFE2945895B02C /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45071B9628EEF6E80A9C18F /* Pods_Parstagram.framework */; };
+		E606BF8C226573EE007952F6 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606BF8B226573EE007952F6 /* CommentCell.swift */; };
 		E62B30D2225C0233003FB83F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62B30D1225C0233003FB83F /* CameraViewController.swift */; };
 		E62B30D6225C0E4D003FB83F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62B30D5225C0E4D003FB83F /* PostCell.swift */; };
 		E6B795F022544586007CF4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B795EF22544586007CF4E3 /* AppDelegate.swift */; };
@@ -47,6 +48,7 @@
 		2C94406FBB02974605AF7CF2 /* Pods-ParstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.release.xcconfig"; path = "Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		312097206CD3E05D822CDE11 /* Pods-ParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-ParstagramUITests/Pods-ParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A45071B9628EEF6E80A9C18F /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E606BF8B226573EE007952F6 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		E62B30D1225C0233003FB83F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		E62B30D5225C0E4D003FB83F /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		E6B795EC22544586007CF4E3 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +147,7 @@
 			children = (
 				E6B795EF22544586007CF4E3 /* AppDelegate.swift */,
 				E6B795F322544586007CF4E3 /* Main.storyboard */,
+				E606BF8B226573EE007952F6 /* CommentCell.swift */,
 				E62B30D5225C0E4D003FB83F /* PostCell.swift */,
 				E62B30D1225C0233003FB83F /* CameraViewController.swift */,
 				E6B795F622544589007CF4E3 /* Assets.xcassets */,
@@ -383,6 +386,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -392,6 +396,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				E6B7962022544E7E007CF4E3 /* FeedViewController.swift in Sources */,
 				E6B795F022544586007CF4E3 /* AppDelegate.swift in Sources */,
 				E62B30D6225C0E4D003FB83F /* PostCell.swift in Sources */,
+				E606BF8C226573EE007952F6 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
